@@ -1,42 +1,99 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes colorchange {
+    0% {background-color: red;}
+    50% {background-color: blue;}
+    100% {background-color: red;}
+}
 @keyframes colorchange {
     0% {background-color: red;}
     50% {background-color: blue;}
     100% {background-color: red;}
 }
+@-webkit-keyframes titlemove{
+    0%{left:200%}
+    55%{-webkit-transform: rotate(11deg);transform: rotate(11deg);}
+    60%{left:0%;-webkit-transform: rotate(11deg);transform: rotate(11deg);}
+    67%{-webkit-transform: rotate(13deg);transform: rotate(13deg);}
+    70%{-webkit-transform:rotate(13deg);transform:rotate(13deg);}
+    75%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg);}
+    77%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    80%{-webkit-transform:rotate(4deg);transform:rotate(4deg);}
+    84%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    89%{-webkit-transform:rotate(-3deg);transform:rotate(-3deg);}
+    95%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    100%{left:0%;}
+}
 @keyframes titlemove{
     0%{left:200%}
-    55%{transform: rotate(11deg);}
-    60%{left:0%;transform: rotate(11deg);}
-    67%{transform: rotate(13deg);}
-    70%{transform:rotate(13deg);}
-    75%{transform:rotate(-5deg);}
-    77%{transform:rotate(0deg);}
-    80%{transform:rotate(4deg);}
-    84%{transform:rotate(0deg);}
-    89%{transform:rotate(-3deg);}
-    95%{transform:rotate(0deg);}
+    55%{-webkit-transform: rotate(11deg);transform: rotate(11deg);}
+    60%{left:0%;-webkit-transform: rotate(11deg);transform: rotate(11deg);}
+    67%{-webkit-transform: rotate(13deg);transform: rotate(13deg);}
+    70%{-webkit-transform:rotate(13deg);transform:rotate(13deg);}
+    75%{-webkit-transform:rotate(-5deg);transform:rotate(-5deg);}
+    77%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    80%{-webkit-transform:rotate(4deg);transform:rotate(4deg);}
+    84%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+    89%{-webkit-transform:rotate(-3deg);transform:rotate(-3deg);}
+    95%{-webkit-transform:rotate(0deg);transform:rotate(0deg);}
     100%{left:0%;}
+}
+@-webkit-keyframes linkhover {
+    0%{}
+    50%{background-color: rgba(22, 122, 214, 0.75);}
+    100%{}
 }
 @keyframes linkhover {
     0%{}
     50%{background-color: rgba(22, 122, 214, 0.75);}
     100%{}
 }
+@-webkit-keyframes buttonhover {
+    0%{}
+    100%{background-color: rgba(214, 22, 48, 0.75);}
+}
 @keyframes buttonhover {
     0%{}
     100%{background-color: rgba(214, 22, 48, 0.75);}
 }
+@-webkit-keyframes buttonswell {
+    0%{}
+    30%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    35%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    39%{-webkit-transform: scale(1.2) translate(-5px) rotate(-1deg);transform: scale(1.2) translate(-5px) rotate(-1deg);}
+    43%{-webkit-transform: scale(1.2) translate(5px) rotate(1deg);transform: scale(1.2) translate(5px) rotate(1deg);}
+    48%{-webkit-transform: scale(1.2) translate(-5px) rotate(-1deg);transform: scale(1.2) translate(-5px) rotate(-1deg);}
+    51%{-webkit-transform: scale(1.2) translate(5px) rotate(1deg);transform: scale(1.2) translate(5px) rotate(1deg);}
+    55%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    70%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    100%{}
+}
 @keyframes buttonswell {
     0%{}
-    30%{transform: scale(1.2) translate(0px) rotate(0deg);}
-    35%{transform: scale(1.2) translate(0px) rotate(0deg);}
-    39%{transform: scale(1.2) translate(-5px) rotate(-1deg);}
-    43%{transform: scale(1.2) translate(5px) rotate(1deg);}
-    48%{transform: scale(1.2) translate(-5px) rotate(-1deg);}
-    51%{transform: scale(1.2) translate(5px) rotate(1deg);}
-    55%{transform: scale(1.2) translate(0px) rotate(0deg);}
-    70%{transform: scale(1.2) translate(0px) rotate(0deg);}
+    30%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    35%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    39%{-webkit-transform: scale(1.2) translate(-5px) rotate(-1deg);transform: scale(1.2) translate(-5px) rotate(-1deg);}
+    43%{-webkit-transform: scale(1.2) translate(5px) rotate(1deg);transform: scale(1.2) translate(5px) rotate(1deg);}
+    48%{-webkit-transform: scale(1.2) translate(-5px) rotate(-1deg);transform: scale(1.2) translate(-5px) rotate(-1deg);}
+    51%{-webkit-transform: scale(1.2) translate(5px) rotate(1deg);transform: scale(1.2) translate(5px) rotate(1deg);}
+    55%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
+    70%{-webkit-transform: scale(1.2) translate(0px) rotate(0deg);transform: scale(1.2) translate(0px) rotate(0deg);}
     100%{}
+}
+@-webkit-keyframes rainbow {
+    0%{color: red;}
+    15%{color: orange;}
+    30%{color: yellow;}
+    45%{color: green;}
+    60%{color: blue;}
+    75%{color: indigo;}
+    90%{color: purple;}
+    100%{color: red;}
 }
 @keyframes rainbow {
     0%{color: red;}
@@ -48,20 +105,40 @@
     90%{color: purple;}
     100%{color: red;}
 }
+@-webkit-keyframes imagehover {
+    0%{-webkit-transform-origin: top left;transform-origin: top left; z-index: 10; position: relative;}
+    50%{-webkit-transform-origin: top left;transform-origin: top left; z-index: 10; position: relative;}
+    100%{-webkit-transform-origin: top left;transform-origin: top left; -webkit-transform: scale(105%); transform: scale(105%); margin-bottom: 15px; z-index: 10; position: relative;}
+}
 @keyframes imagehover {
-    0%{transform-origin: top left; z-index: 10; position: relative;}
-    50%{transform-origin: top left; z-index: 10; position: relative;}
-    100%{transform-origin: top left; transform: scale(105%); margin-bottom: 15px; z-index: 10; position: relative;}
+    0%{-webkit-transform-origin: top left;transform-origin: top left; z-index: 10; position: relative;}
+    50%{-webkit-transform-origin: top left;transform-origin: top left; z-index: 10; position: relative;}
+    100%{-webkit-transform-origin: top left;transform-origin: top left; -webkit-transform: scale(105%); transform: scale(105%); margin-bottom: 15px; z-index: 10; position: relative;}
+}
+@-webkit-keyframes circlehover{
+    0%{}
+    5%{-webkit-transform: translate(0px, -30px);transform: translate(0px, -30px);}
+    10%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+    15%{-webkit-transform: translate(0px, -10px);transform: translate(0px, -10px);}
+    20%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+    25%{-webkit-transform: translate(0px, -5px);transform: translate(0px, -5px);}
+    30%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+    100%{}
 }
 @keyframes circlehover{
     0%{}
-    5%{transform: translate(0px, -30px);}
-    10%{transform: translate(0px, 0px);}
-    15%{transform: translate(0px, -10px);}
-    20%{transform: translate(0px, 0px);}
-    25%{transform: translate(0px, -5px);}
-    30%{transform: translate(0px, 0px);}
+    5%{-webkit-transform: translate(0px, -30px);transform: translate(0px, -30px);}
+    10%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+    15%{-webkit-transform: translate(0px, -10px);transform: translate(0px, -10px);}
+    20%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
+    25%{-webkit-transform: translate(0px, -5px);transform: translate(0px, -5px);}
+    30%{-webkit-transform: translate(0px, 0px);transform: translate(0px, 0px);}
     100%{}
+}
+@-webkit-keyframes loadpage {
+    0%{width: 0%;}
+    98%{width: 100%;}
+    100%{width:0%;}
 }
 @keyframes loadpage {
     0%{width: 0%;}
@@ -69,40 +146,54 @@
     100%{width:0%;}
 }
 div.loading {
-    animation: loadpage 1s forwards;
+    -webkit-animation: loadpage 1s forwards;
+            animation: loadpage 1s forwards;
     background-color: greenyellow;
     height: 5px;
 }
 div.col-sm-3 img:hover {
-    animation: imagehover 1s forwards;
+    -webkit-animation: imagehover 1s forwards;
+            animation: imagehover 1s forwards;
     float: left;
 }
 .circle {
     background-color: red;
-    animation-name: colorchange;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
+    -webkit-animation-name: colorchange;
+            animation-name: colorchange;
+    -webkit-animation-duration: 4s;
+            animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
     position: relative;
 }
 .circle:hover {
-    animation: colorchange 4s infinite forwards, circlehover 2s ;
+    -webkit-animation: colorchange 4s infinite forwards, circlehover 2s ;
+            animation: colorchange 4s infinite forwards, circlehover 2s ;
 }
 div.jumbotron h1 {
-    animation: titlemove 2s;
+    -webkit-animation: titlemove 2s;
+            animation: titlemove 2s;
     position: relative;
 }
 div.jumbotron p {
-    animation: rainbow 10s infinite forwards;
+    -webkit-animation: rainbow 10s infinite forwards;
+            animation: rainbow 10s infinite forwards;
     text-shadow: 1px 0px #101010, -1px 0px #101010, 0px 1px #101010, 0px -1px #101010;
 }
 a:hover {
-    animation-name: linkhover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: linkhover;
+            animation-name: linkhover;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 button:hover {/*button gets big then stays big*/
-    animation: buttonhover 0.5s forwards, buttonswell 2s infinite;/*Forward keeps the last state of the animation as the new current state*/
+    -webkit-animation: buttonhover 0.5s forwards, buttonswell 2s infinite;
+            animation: buttonhover 0.5s forwards, buttonswell 2s infinite;/*Forward keeps the last state of the animation as the new current state*/
     position: relative;
 }
